@@ -1,0 +1,9 @@
+version: "3"
+  
+services:
+  freenom:
+    image: luolongfei/freenom:latest
+    restart: always
+    volumes:
+      - ./conf:/conf
+      - ./logs:/app/logs
